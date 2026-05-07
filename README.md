@@ -13,7 +13,6 @@
 - [Purpose](#purpose) 
 - [Business Problem](#business-problem) 
 - [Executive Questions](#executive-questions)
-- [Tools & Skills Used](#tools--skills-used)
 - [Dataset](#dataset)
 - [Data Preparation](#data-preparation) 
 - [Data Model](#data-model)
@@ -22,7 +21,8 @@
 - [Dashboard Design (Business Problem -> Analysis -> Insights & Recommendations -> Action)](#dashboard-design-business-problem---analysis---insights--recommendations---action)
 - [Executive Business Insights](#executive-business-insights) 
 - [Actionable Business Recommendations](#actionable-business-recommendations) 
-- [Business Value Delivered](#business-value-delivered) 
+- [Business Value Delivered](#business-value-delivered)
+- [Tools & Skills Used](#tools--skills-used)
 
 ---
 
