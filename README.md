@@ -172,15 +172,15 @@ The dashboard includes 9 primary KPI cards to provide an at-a-glance view of bus
 <img width="543" height="170" alt="image" src="https://github.com/user-attachments/assets/82f5086a-128b-4e93-bbbc-271daf2fe62e" />
 
 
-- **Sales** – current sales, previous year sales and percentage change in sales wrto previous year 
+- ### **Sales** – current sales, previous year sales and percentage change in sales wrto previous year 
 
 <img width="197" height="168" alt="image" src="https://github.com/user-attachments/assets/e9bf1c47-41d9-4066-8079-955096975a13" />
 
-- **Profit** – current profit, previous year profit and percentage change in profit wrto previous year 
+- ### **Profit** – current profit, previous year profit and percentage change in profit wrto previous year 
 
 <img width="193" height="164" alt="image" src="https://github.com/user-attachments/assets/04c00070-406f-4cc6-8d29-4c68a26672e3" />
 
-- **% Returned Orders** – percentage of returned orders, previous year percentage of returned orders and percentage change wrto previous year 
+- ### **% Returned Orders** – percentage of returned orders, previous year percentage of returned orders and percentage change wrto previous year 
 
 <img width="198" height="164" alt="image" src="https://github.com/user-attachments/assets/6c18a97d-9227-4041-89d1-e7310e022a7e" />
 
