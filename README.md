@@ -8,6 +8,24 @@
 
 ---
 
+## Navigation
+
+- [Purpose](#purpose) 
+- [Business Problem](#business-problem) 
+- [Executive Questions](#executive-questions) 
+- [Executive Business Insights](#executive-business-insights) 
+- [Actionable Business Recommendations](#actionable-business-recommendations) 
+- [Tools & Skills Used](#tools-&-skills-used) 
+- [Dataset](#dataset) 
+- [Data Preparation](#data-preparation) 
+- [Data Model](#data-model) 
+- [Dashboard KPIs](#dashboard-kpis) 
+- Dashboard Design (Business Problem -> Analysis -> Insights & Recommendations -> Action)
+- DAX Used (Measures)
+- [Business Value Delivered](#business-value-delivered) 
+
+---
+
 ## Purpose
 
 An executive-level Power BI dashboard providing retail leadership with consolidated visibility into monitoring sales performance, profit drivers, geographic performance contribution, and customer segment analysis for retail/wholesale operations through KPI-led reporting and interactive geographic/product analysis.
