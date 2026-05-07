@@ -12,16 +12,16 @@
 
 - [Purpose](#purpose) 
 - [Business Problem](#business-problem) 
-- [Executive Questions](#executive-questions) 
+- [Executive Questions](#executive-questions)
+- [Tools & Skills Used](#tools--skills-used)
+- [Dataset](#dataset)
+- [Data Preparation](#data-preparation) 
+- [Data Model](#data-model)
+- [DAX Used (Measures)](#dax-used-measures)
+- [Dashboard KPIs](#dashboard-kpis) 
+- [Dashboard Design (Business Problem -> Analysis -> Insights & Recommendations -> Action)](#dashboard-design-business-problem---analysis---insights--recommendations---action)
 - [Executive Business Insights](#executive-business-insights) 
 - [Actionable Business Recommendations](#actionable-business-recommendations) 
-- [Tools & Skills Used](#tools-&-skills-used) 
-- [Dataset](#dataset) 
-- [Data Preparation](#data-preparation) 
-- [Data Model](#data-model) 
-- [Dashboard KPIs](#dashboard-kpis) 
-- Dashboard Design (Business Problem -> Analysis -> Insights & Recommendations -> Action)
-- DAX Used (Measures)
 - [Business Value Delivered](#business-value-delivered) 
 
 ---
@@ -51,50 +51,6 @@ This dashboard delivers KPI-led monitoring of sales/profit versus prior year, pr
 - Which geographic markets generate strongest profit contribution? Find out the place where most of the profit is happening?
 - Which customer segments contribute most to sales revenue?
 
-
----
-
-
-
-## Executive Business Insights
-
-- **Performance Monitoring:** KPI cards provide immediate executive snapshot with prior year comparisons
-- **Trend Visibility:** Monthly sales trajectory supports revenue planning and seasonality detection  
-- **Product Optimization:** Profit ranking identifies promotion priorities and loss review candidates
-- **Geographic Strategy:** Map reveals market profit concentration for resource allocation
-- **Segment Focus:** Customer breakdown guides targeted sales and retention efforts
-
-
----
-
-
-
-## Actionable Business Recommendations
-
-Based on the dashboard structure, the following actions would be relevant for business stakeholders:
-
-1. **Review** monthly sales trends to time promotional campaigns effectively
-2. **Promote** top-performing product categories while reviewing loss-making subcategories for pricing/positioning
-3. **Monitor** return rates by product/geography to identify quality or fulfillment issues
-4. **Invest** in highest-profit geographic markets. Prioritize investment in highest-profit states/provinces revealed by geographic analysis
-5. **Target** highest-revenue generating customer segments. Focus sales efforts on these customer segments
-
----
-
-
-## Tools & Skills Used
-
-- **Power BI**
-- **Power Query**
-- **Data Modeling**
-- **DAX**
-- **KPI Dashboard Design**
-- **Business Performance Analysis**
-- **Interactive Data Visualization**
-- **Visual Story telling**
-- **Time-Intelligence DAX**
-- **Conditional formatting for storytelling**
-- **Visual hierarchy for executive consumption**
 
 ---
 
@@ -154,12 +110,60 @@ Measures and organization:
 <img width="987" height="518" alt="image" src="https://github.com/user-attachments/assets/486f18d5-5392-496b-96fd-bf7620963c67" />
 
 
+---
+
+## DAX Used (Measures)
 
 
+The dashboard includes the use of calculated tables, columns and measures derived using DAX for the analysis purpose. 
+
+
+- ###  **Date Table**
+
+  <img width="670" height="824" alt="image" src="https://github.com/user-attachments/assets/db36eecd-ae7f-4296-a637-7fc92a743cb1" />
+
+
+- ###  **Sales**
+
+<img width="576" height="199" alt="image" src="https://github.com/user-attachments/assets/7333d763-a056-495f-ac07-7d9ab1bc0797" />
+
+- ###  **Profit**
+
+<img width="889" height="305" alt="image" src="https://github.com/user-attachments/assets/fc930693-0fc5-47a3-9484-0d0790b500e9" />
+
+- ###  **% Returned Orders**
+
+  <img width="893" height="360" alt="image" src="https://github.com/user-attachments/assets/c25c1957-7431-455d-bc8a-620a4b338db9" />
+
+- ###  **Sales PY** 
+
+<img width="896" height="310" alt="image" src="https://github.com/user-attachments/assets/60676094-79d4-4733-bbd2-775efef2dfb6" />
+
+- ###  **Profit PY** 
+
+<img width="889" height="314" alt="image" src="https://github.com/user-attachments/assets/e66763f0-4938-4da7-a7c2-e18e94510b2c" />
+
+- ###  **% Returned Orders PY**
+
+<img width="413" height="130" alt="image" src="https://github.com/user-attachments/assets/18320934-e583-4505-88fc-c01d0632d34c" />
+
+- ###  **Sales vs PY** 
+
+<img width="897" height="308" alt="image" src="https://github.com/user-attachments/assets/8964e703-e02c-4b12-841b-78ecf671e498" />
+
+- ###  **Profit vs PY** 
+
+<img width="893" height="297" alt="image" src="https://github.com/user-attachments/assets/1ca609c3-191f-4278-a748-bfc65e6911f2" />
+
+- ###  **% Returned Orders vs PY**
+
+  <img width="894" height="314" alt="image" src="https://github.com/user-attachments/assets/ca192bab-520f-4f8c-99f0-e6f61fc2a885" />
+
+
+These Dax functions helps in providing the base for drilling into more structured, detailed and specific analysis directed towards problem statement at hand.
 
 
 ---
-
 
 ## Dashboard KPIs
 
@@ -261,57 +265,27 @@ Allocate more sales and marketing resources to the highest‑revenue segment, wh
 
 ---
 
-## DAX Used (Measures)
+## Executive Business Insights
+
+- **Performance Monitoring:** KPI cards provide immediate executive snapshot with prior year comparisons
+- **Trend Visibility:** Monthly sales trajectory supports revenue planning and seasonality detection  
+- **Product Optimization:** Profit ranking identifies promotion priorities and loss review candidates
+- **Geographic Strategy:** Map reveals market profit concentration for resource allocation
+- **Segment Focus:** Customer breakdown guides targeted sales and retention efforts
+
+---
 
 
-The dashboard includes the use of calculated tables, columns and measures derived using DAX for the analysis purpose. 
 
+## Actionable Business Recommendations
 
-- ###  **Date Table**
+Based on the dashboard structure, the following actions would be relevant for business stakeholders:
 
-  <img width="670" height="824" alt="image" src="https://github.com/user-attachments/assets/db36eecd-ae7f-4296-a637-7fc92a743cb1" />
-
-
-- ###  **Sales**
-
-<img width="576" height="199" alt="image" src="https://github.com/user-attachments/assets/7333d763-a056-495f-ac07-7d9ab1bc0797" />
-
-- ###  **Profit**
-
-<img width="889" height="305" alt="image" src="https://github.com/user-attachments/assets/fc930693-0fc5-47a3-9484-0d0790b500e9" />
-
-- ###  **% Returned Orders**
-
-  <img width="893" height="360" alt="image" src="https://github.com/user-attachments/assets/c25c1957-7431-455d-bc8a-620a4b338db9" />
-
-- ###  **Sales PY** 
-
-<img width="896" height="310" alt="image" src="https://github.com/user-attachments/assets/60676094-79d4-4733-bbd2-775efef2dfb6" />
-
-- ###  **Profit PY** 
-
-<img width="889" height="314" alt="image" src="https://github.com/user-attachments/assets/e66763f0-4938-4da7-a7c2-e18e94510b2c" />
-
-- ###  **% Returned Orders PY**
-
-<img width="413" height="130" alt="image" src="https://github.com/user-attachments/assets/18320934-e583-4505-88fc-c01d0632d34c" />
-
-- ###  **Sales vs PY** 
-
-<img width="897" height="308" alt="image" src="https://github.com/user-attachments/assets/8964e703-e02c-4b12-841b-78ecf671e498" />
-
-- ###  **Profit vs PY** 
-
-<img width="893" height="297" alt="image" src="https://github.com/user-attachments/assets/1ca609c3-191f-4278-a748-bfc65e6911f2" />
-
-- ###  **% Returned Orders vs PY**
-
-  <img width="894" height="314" alt="image" src="https://github.com/user-attachments/assets/ca192bab-520f-4f8c-99f0-e6f61fc2a885" />
-
-
-These Dax functions helps in providing the base for drilling into more structured, detailed and specific analysis directed towards problem statement at hand.
-
-
+1. **Review** monthly sales trends to time promotional campaigns effectively
+2. **Promote** top-performing product categories while reviewing loss-making subcategories for pricing/positioning
+3. **Monitor** return rates by product/geography to identify quality or fulfillment issues
+4. **Invest** in highest-profit geographic markets. Prioritize investment in highest-profit states/provinces revealed by geographic analysis
+5. **Target** highest-revenue generating customer segments. Focus sales efforts on these customer segments
 
 ---
 
@@ -326,6 +300,20 @@ This solution transforms transactional retail data into executive decision intel
 - Return rate performance management
 
 ---
+## Tools & Skills Used
 
+- **Power BI**
+- **Power Query**
+- **Data Modeling**
+- **DAX**
+- **KPI Dashboard Design**
+- **Business Performance Analysis**
+- **Interactive Data Visualization**
+- **Visual Story telling**
+- **Time-Intelligence DAX**
+- **Conditional formatting for storytelling**
+- **Visual hierarchy for executive consumption**
+
+---
 
 ---
